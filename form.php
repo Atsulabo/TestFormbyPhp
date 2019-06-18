@@ -100,7 +100,7 @@
               <option value="B">B型</option>
               <option value="O">O型</option>
               <option value="AB">AB型</option>
-              <option value="None">どれでもない</option></select></p>
+              <option value="わからない">わからない</option></select></p>
           <p class="form-item">Eメール<br/><input class="email" type="text" name="email"></p>
           <p class="form-item">問い合わせ内容<br/><textarea class="inquery" name="inquery" cols="50" rows="10"></textarea><p>
           <p><input class="submit" type="submit" value="送信">
