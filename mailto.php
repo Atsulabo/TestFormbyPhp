@@ -13,18 +13,9 @@
       //名前
       $name = $_POST["name"];
       //性
-      if(isset($_POST["gender"])){
-                $gender = $_POST["gender"];
-                echo $cs;
-              } else {
-                $gender = '記載なし';
-              }
+      $gender = $_POST["gender"];
       //好きなもの
-      if(isset($_POST['like'])){
-               $like = implode(", ", $_POST["like"]);
-           } else {
-             $like = '記載なし';
-           }
+       $like = $_POST["like"];
       //血液型
       $bloodtype =  $_POST["bloodtype"];
       //Eメール
