@@ -50,7 +50,7 @@
         <input type="hidden" name="like" value=<?php  echo $like; ?>>
         <input type="hidden" name="bloodtype" value=<?php  echo $bloodtype; ?>>
         <input type="hidden" name="email" value=<?php  echo $email; ?>>
-        <input type="hidden" name="inquery" value=<?php  echo $email; ?>>
+        <input type="hidden" name="inquery" value=<?php  echo $inquery; ?>>
         <input type="submit" value="送信">
       </form>
 
